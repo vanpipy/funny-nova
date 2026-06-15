@@ -1,0 +1,28 @@
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Runtime artifacts
+nova.db
+nova.db-shm
+nova.db-wal
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Sages tooling workspace
+.sages/
